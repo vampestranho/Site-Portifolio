@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 1180px){
+
+	.i_right img{
+		width: 50px;
+		height: 50px;
+	}
+    
+}
+main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 200vh;
+    background-image: url("../img/produtos/background_cardapio.jpg");
+}
+    .borde_s{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 255, 255, 0.836);
+    }
+    .box{
+        width: 90%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        border-bottom:1px solid black;
+    }
+    .b_limit{
+        width: 90%;
+        height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+    }
+    .c_header{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        border-bottom:2px solid black;
+    }
+    .c_content{}
+    .bebida{
+        width: 100%;
+        height: 400px;
+    }
+    .entrada{
+        width: 100%;
+        height: 400px;
+    }
+    .prato_principal{
+        width: 100%;
+        height: 400px;
+    }
+    .sobremesa{
+        width: 100%;
+        height: 400px;
+    }
+
+footer{
+	width: 100%;
+	height: 380px;
+	background-color: white;
+	margin-top: auto;
+}
+	.box_f{
+		width: 90%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+	}
+	.info{
+		width: 100%;
+		height: 325px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+	.i_left{
+		width: 30%;
+		height: 50%;
+		margin-top: 80px;
+		border-top:2px solid black;
+		text-align: center;
+	}
+		.i_left h2{
+			margin-top: 20px;
+		}
+		.i_left a{
+			text-align: center;
+			text-decoration: none;
+			color: black;
+		}
+	.i_right{
+		width: 30%;
+		height: 50%;
+		margin-top: 80px;
+		border-top:2px solid black;
+		text-align: center;
+	}
+	.i_right h2{
+		margin-top: 20px;
+	}
+	.i_right img:hover{
+		background-color: rgb(238, 238, 238);
+	}
+	.copyright{
+		width: 80%;
+		height: 50px;
+		margin-right: auto;
+		margin-left: auto;
+		border-top:2px solid black;
+	}
+	.copyright p{
+		text-align: center;
+		margin-top: 5px;
+	}
+	section#codigo{
+		margin-top: 100px;
+	}

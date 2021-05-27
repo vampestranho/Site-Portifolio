@@ -1,0 +1,114 @@
+@media (max-width: 1617px){
+    main{
+        height: 200vh;
+    }
+    footer{
+        height: 100px;
+    }
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header.menu{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+    header h1{
+        margin: 0px;
+        text-align: center;
+    }
+main{
+    width: 100%;
+    height: 100vh;
+}
+    .box{
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .box_limit{
+        width: 50%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title{
+        width: 30%;
+        height: 50px;
+        text-align: center;
+    }
+        .title h1{
+            margin: 0px;
+        }
+    .img_traco{
+        display: inline-block;
+        width: 200px;
+        height: 30px;
+        background-color: black;
+        border:1px solid black;
+        border-radius: 20px;
+    }
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+    .painel{
+        width: 400px;
+        height: 700px;
+    }
+    .img_painel{
+        width: 100%;
+        height: 400px;
+        background-image: url("../img/pizza.png");
+        background-position: center;
+    }
+    .text_painel{
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .preco_painel{
+        width: 50%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .preco_painel strong{
+        font-size: 20px;
+    }
+
+    .button_painel{
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+        text-align: center;
+    }
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+    .copyright{
+        width: 30%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        
+    }
+    .copyright p{
+        margin: 0px;
+        text-align: center;
+    }
